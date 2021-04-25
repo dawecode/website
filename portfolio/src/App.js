@@ -15,7 +15,7 @@ function App() {
         <Route path="/about" component={About} />
 
         <div className="navigation">
-          <img src={logo} className="logo" alt="Logo" />
+          {/* <img src={logo} className="logo" alt="Logo" /> */}
           <div className="navigation-sub">
 
             {/* set up the Links  */}
