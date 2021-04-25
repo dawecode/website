@@ -9,7 +9,7 @@ function Header () {
     <section className="header">
       <section className="header-top">
         <section className="header-top__logo">
-          <a href="/" className="header-logo">LOGO</a>
+          <a href="/" className="header-logo"> DAWE </a>
         </section>
         <section className="header-top__navbar">
           <section className="header-top__navigation">
@@ -19,11 +19,9 @@ function Header () {
         </section>
       </section>
       <section className="header-bottom">
-        <section className="header-bottom__phone">
-          99999999999
-        </section>
+        <section className="header-logo"> CODE </section>
         <section className="header-bottom__email">
-          shop.info@gmail.com
+          dawe.cm@gmail.com
         </section>
       </section>
     </section>
