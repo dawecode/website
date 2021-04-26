@@ -20,9 +20,9 @@ function Header () {
       </section>
       <section className="header-bottom">
         <section className="header-logo"> CODE </section>
-        <section className="header-bottom__email">
+        {/* <section className="header-bottom__email">
           dawe.cm@gmail.com
-        </section>
+        </section> */}
       </section>
     </section>
   )
