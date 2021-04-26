@@ -30,7 +30,6 @@ function Footer() {
           />
         </a>
       </section>
-      <hr className="footer-seperator" />
     </section>
   );
 }

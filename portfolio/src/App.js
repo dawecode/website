@@ -1,6 +1,8 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom'
-import { Header, Footer} from './components/common'
+import { Switch, Route } from 'react-router-dom';
+import { Header, Footer, About, Projects, Contact } from './components/common';
+
+
 
 
 function App() {
@@ -12,13 +14,13 @@ function App() {
             cute
           </Route>
           <Route path='/about'>
-            About
+            <About />
           </Route>
           <Route path='/projects'>
-            Projects
+            <Projects/>
           </Route>
           <Route path='/contact'>
-            Contact
+            <Contact />
           </Route>
         </Switch>
      <Footer />
