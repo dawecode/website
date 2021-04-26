@@ -1,9 +1,11 @@
 .navbar {
+
   display: flex;
   flex-direction: row;
 }
 
 .navbar-item {
+  z-index:10;
   display: flex;
   justify-content: center;
   align-items: center;

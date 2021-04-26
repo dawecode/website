@@ -9,9 +9,11 @@ function App() {
   return (
    <div className="App">
      <Header />
-        <Switch>
+      
+        <About/>
+        {/* <Switch>
           <Route exact path='/'>
-            cute
+          home
           </Route>
           <Route path='/about'>
             <About />
@@ -22,7 +24,8 @@ function App() {
           <Route path='/contact'>
             <Contact />
           </Route>
-        </Switch>
+        </Switch> */}
+   
      <Footer />
    </div>
     

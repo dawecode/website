@@ -23,7 +23,7 @@ function Footer() {
             icon={faGithubSquare}
           />
         </a>
-        <a class="mailto" href="mailto:dawe.cm@gmail.com">
+        <a className="mailto" href="mailto:dawe.cm@gmail.com">
           <FontAwesomeIcon
           className="footer__social-media-icon"
           icon={faEnvelope}
